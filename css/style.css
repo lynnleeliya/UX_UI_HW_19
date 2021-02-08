@@ -3,51 +3,70 @@
 } */
 
 /* NAV BAR */
-nav {
-    height: 148px; 
-    }
-
-.left {
-    font-size: 48px;
-    font-family: 'Karla', sans-serif;
-    text-decoration: none;
-    color: #74A4BC;
-    padding: 20px 20px 0px 20px;
-}
-
-.right {
-    font-size: 20px;
-    font-family: 'Karla', sans-serif;
-    text-decoration: none;
-    color:#74A4BC;
+#Name {
     display: flex;
-    justify-content: flex-end;
-    padding: 0px 30px 0px 30px;
+    justify-content: center;
+    padding: 20px;
+    font-family: "Cormorant", "Serif";
+    font-weight: 500;
+    font-size: 35px;
+    color: #000000;
 }
-hr.solid {
-    border: .5px solid #c4c4c4;
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px 5px 20px;
+    font-family: "Cormorant", "Serif";
+    font-size: 18px;
+    color: #000000;
+}
+
+.about, .project, .resume, .contact {
+    padding: 0px 30px 0px 30px;
+    list-style: none;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* HOVER STATE */
+.about:hover {
+    color: #74A4BC;
+}
+.project:hover {
+    color: #74A4BC;
+}
+.resume:hover {
+    color: #74A4BC;
+}
+.contact:hover {
+    color: #74A4BC;
+}
+
+.solid {
+    border: 0.1px solid #000000;
 }
 
 /* INTRO HEADER */
 h1, h7 {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Cormorant', 'Serif';
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
     width: 400px;
     text-align: center;
-    color: #74A4BC;
+    color: #000000;
     display: flex;
     justify-content: center;
     padding: 80px 0px 10px 0px;
     margin: 0 auto;
 }
 h2, h8 {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Cormorant', 'Serif';
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
-    color: #74A4BC;
+    color: #000000;
     padding: 70px 0px 70px 0px;
 }
 
@@ -64,10 +83,10 @@ h2, h8 {
     padding: 25px 50px 0px 150px;
 }
 h3, h6, p {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Cormorant', 'Serif';
     font-size: 18px;
     font-weight: lighter;
-    color: #74A4BC;
+    color: #000000;
     display: flex;
     justify-content: center;
     text-decoration: underline;
@@ -87,10 +106,10 @@ h3, h6, p {
 /* PERSONAL STYLE GUIDE */
 
 h4, h5 {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Cormorant', 'Serif';
     font-size: 25px;
     font-weight: lighter;
-    color: #74A4BC;
+    color: #000000;
     display: flex;
     justify-content: center;
     margin: 0 auto;
